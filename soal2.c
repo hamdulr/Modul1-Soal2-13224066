@@ -32,7 +32,7 @@ int main(){
 
     paket temp;
     for(int i=0;i<N;i++){
-        for(int j=i;j<N;j++){
+        for(int j=0;j<N;j++){
             if(package[j].indeks>package[j+1].indeks){
                 temp = package[j];
                 package[j] = package[j+1];
@@ -41,7 +41,7 @@ int main(){
         }
     }
 
-   /* for(int i=0;i<val;i++){
+    /*for(int i=0;i<val;i++){
         printf("%d %s %s\n", package[i].indeks, package[i].kode, package[i].kata);
     }*/
 
