@@ -1,3 +1,11 @@
+/*
+Nama    : Hamzah Abdul Rahim
+NIM     : 13224066
+Modul   : 1 DATA MANIPULATION, EXTERNAL FILES, STRUCTURES AND DYNAMIC ARRAYS
+Tanggal : 4 November 2026
+Soal    : Soal 2
+Deskripsi: Program untuk praktikum modul 1 soal 2, program mengecek kevalidan kunci tiap input, lalu mengurutkan sesuai indeks dan mengoutput kata kata secara terbalik.
+*/
 #include <stdio.h>
 #include <string.h>
 
