@@ -57,18 +57,20 @@ int main(){
         }
         strcpy(package[i].kata,out);
     }
-
-    for(int i=0;i<val;i++){
-        if(i!= val-1){
-            printf("%s ", package[i].kata);
-        }
-        else{
-            printf("%s\n", package[i].kata);
-        }
+    if(val == 0){
+        printf("000");
     }
-    printf("LENGTH %d\n", lentotal);
-
-
+    else{
+        for(int i=0;i<val;i++){
+            if(i!= val-1){
+                printf("%s ", package[i].kata);
+            }
+            else{
+                printf("%s\n", package[i].kata);
+            }
+        }
+        printf("LENGTH %d\n", lentotal);
+    }
 
 
 }
