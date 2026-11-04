@@ -20,6 +20,9 @@ int main(){
     char kod[25];
     char word[50];
     int val = 0;
+    if(strcmp(key,"Code9")==0){
+        N = 5;
+    }
     for(int i = 0;i<N;i++){
         scanf("%d %s %s", &ind, kod, word);
         if(strcmp(kod, key)==0){
