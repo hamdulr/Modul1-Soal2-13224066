@@ -59,9 +59,13 @@ int main(){
     }
 
     for(int i=0;i<val;i++){
-        printf("%s ", package[i].kata);
+        if(i!= val-1){
+            printf("%s ", package[i].kata);
+        }
+        else{
+            printf("%s\n", package[i].kata);
+        }
     }
-    printf("\n");
     printf("LENGTH %d\n", lentotal);
 
 
